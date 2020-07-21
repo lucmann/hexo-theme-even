@@ -30,7 +30,7 @@ menu:
 color: mint green
 
 # default page mode: default | archives
-mode: archives
+mode: default
 
 toc: true
 
