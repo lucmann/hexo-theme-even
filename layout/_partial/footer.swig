@@ -1,5 +1,6 @@
 {#- Social Links -#}
 {%- include "./_footer/social.swig" -%}
+{%- include "./_footer/mermaid.swig" -%}
 
 <div class="copyright">
   <span class="power-by">
