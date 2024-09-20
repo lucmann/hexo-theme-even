@@ -134,3 +134,10 @@ utterances:
 # Version
 # ===========================================
 version: 3.0.0
+
+mermaid:
+  version: "11.2.1"
+  enable: true
+  theme: forest
+  options:
+    startOnload: true
