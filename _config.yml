@@ -138,6 +138,7 @@ version: 3.0.0
 mermaid:
   version: "11.2.1"
   enable: true
+  cdn: //cdn.jsdelivr.net/npm/mermaid@11.2.1/dist/mermaid.min.js
   theme: forest
   options:
     startOnload: true
