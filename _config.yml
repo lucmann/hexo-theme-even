@@ -136,9 +136,5 @@ utterances:
 version: 3.0.0
 
 mermaid:
-  version: "10.9.1"
   enable: true
-  cdn: //cdnjs.webstatic.cn/ajax/libs/mermaid/10.9.1/mermaid.min.js
   theme: forest
-  options:
-    startOnload: true

@@ -15,3 +15,16 @@ fancybox: fancybox_js,
 <script type="text/javascript" src="<%- url_for('lib') %>/<%- js_libs[lib] %>"></script>
 <% } %>
 <% } %>
+
+<% if (theme.mermaid.enable) { %>
+<%- js('mermaid/mermaid.min.js') %> <!-- or CDN -->
+<script>
+    $(document).ready(function() {
+        var mermaid_config = {
+            startOnLoad: true,
+            theme: '<%- theme.mermaid.theme %>'
+        }
+        mermaid.initialize(mermaid_config);
+    });
+</script>
+<% } %>
