@@ -136,5 +136,5 @@ utterances:
 version: 3.0.0
 
 mermaid:
-  enable: false
+  enable: true
   theme: default
