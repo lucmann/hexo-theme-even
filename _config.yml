@@ -137,4 +137,4 @@ version: 3.0.0
 
 mermaid:
   enable: true
-  theme: default
+  theme: forest
