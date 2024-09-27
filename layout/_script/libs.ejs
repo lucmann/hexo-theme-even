@@ -21,7 +21,7 @@ fancybox: fancybox_js,
 <script type="text/javascript" src="https://unpkg.com/mermaid@11.2.1/dist/mermaid.min.js"></script>
 <script>
     if (window.mermaid) {
-        mermaid.initialize(<%- JSON.stringify(theme.mermaid.options) %>);
+        mermaid.initialize(<%- JSON.stringify(theme.mermaid) %>);
     }
 </script>
 <% } %>
