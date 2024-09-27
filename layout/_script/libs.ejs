@@ -18,14 +18,10 @@ fancybox: fancybox_js,
 <% } %>
 
 <% if (theme.mermaid.enable) { %>
-<%- js('mermaid/mermaid.min.js') %> <!-- or CDN -->
+<script type="text/javascript" src="https://unpkg.com/mermaid@11.2.1/dist/mermaid.min.js"></script>
 <script>
-    $(document).ready(function() {
-        var mermaid_config = {
-            startOnLoad: true,
-            theme: '<%- theme.mermaid.theme %>'
-        }
-        mermaid.initialize(mermaid_config);
-    });
+    if (window.mermaid) {
+        mermaid.initialize(<%- JSON.stringify(theme.mermaid.options) %>);
+    }
 </script>
 <% } %>
