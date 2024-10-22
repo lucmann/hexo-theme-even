@@ -138,3 +138,10 @@ version: 3.0.0
 mermaid:
   enable: true
   theme: forest
+
+katex:
+  enable: true
+  css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+  options:
+    throwOnError: false
+  copy_tex: false
